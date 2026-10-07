@@ -507,6 +507,10 @@ button:focus-visible {
   padding: 48px 0 32px;
   background-color: #0F1B2D;
   color: #FFFFFF;
+  position: fixed;
+  left: 0; 
+  bottom: 0;
+  width: 100%;
 }
 
 .pied-haut {
@@ -544,4 +548,25 @@ button:focus-visible {
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;
+}
+.form {
+background-color:#E2E8F0;
+border-width: 1px ;
+border-style: solid;
+border-radius: 20px;
+border-color: #F05817;
+width: auto;
+height: auto;
+max-height: 500px;
+max-width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.form input  {
+ border-radius: 10px;
+ 
+
 }
