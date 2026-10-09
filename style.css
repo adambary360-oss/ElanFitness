@@ -548,30 +548,42 @@ button:focus-visible {
 }
 .contact {
 display: inline-flex;
+margin: 30px;
+
 
 }
-.form {
+.formule {
 border-radius: 20px;
 width: auto;
 height: auto;
 max-width: 700px;
+display: flex;
+align-items: center;
+
 max-height: 1500px;
 margin: 40px;
-box-shadow: 0 1px 10px #686767;
+padding: 30px;
+box-shadow: 0 1px 10px #FF6B2C;
 }
-.form button {
+.formule button {
   background-color: #F05817;
   height: 50px;
   width: 100px;
   border: 20px;
   border-radius: 15px;
-  margin-bottom: 5px;
+  margin-top: 20px;
 box-shadow: 0 1px 3px #686767;
 }
-.form button h3{
+.formule button h3{
   color: #ffffff;
 }
-.form input{
+
+.formule button:hover {background-color: #ac3300}
+
+.formule button:active {
+  transform: translateY(4px);
+}
+.formule input{
 border: none;
 text-align: center;
 border-radius: 10px;
@@ -579,9 +591,8 @@ width: 400px;
 padding: 10px;
 margin: 20px;
 box-shadow: 0 1px 3px #686767;
-
 }
-.form textarea {
+.formule textarea {
 border: none;
 resize: none;
 border-radius: 15px;
@@ -596,11 +607,19 @@ box-shadow: 0 1px 3px #686767;
   width: auto;
   height: auto;
   max-width: 700px;
-  max-height: 300px;
-  min-width: 600px;
+  max-height: 1000px;
+  min-width: 500px;
   padding: 30px;
   margin: 40px;
   border-radius: 20px;
+}
+.LesInformation img{
+  border-radius: 20px;
+  box-shadow: 0 3px 15px #1F2937;
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  margin: 25px;
 }
 .LesInformation h2 {
   color: #ffffff;
